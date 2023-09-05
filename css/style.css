@@ -6,6 +6,8 @@
 
 .bg-blue {
     background-color: #4964f5;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 .row-header {
@@ -38,3 +40,4 @@ flex-wrap: wrap;
     text-align: center;
     text-decoration: none;
 } 
+
