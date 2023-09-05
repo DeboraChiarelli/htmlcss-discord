@@ -10,7 +10,7 @@ body {
 
 
 .bg-lightblue {
-    background-color: #3161E0;
+    background-color: #255EE9;
     padding: 10px;
 }
 
@@ -27,10 +27,32 @@ body {
     font-size: 15px;
     border-radius: 10px;
     text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    border: 0px;
 }
 
-.height100 {
-    height: 100px;
+.bk-jumbo {
+    padding: 100px;
+    background-size: cover;
+    background-image: url(../img/jumbo.png)
+}
+
+
+.title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.para {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+
 }
 
 .row {
@@ -41,6 +63,7 @@ body {
 
 .row-header {
     justify-content: space-between;
+    align-items: center;
 }
 
 .container {
@@ -48,6 +71,7 @@ body {
     margin: 0 auto;
     display: flex;
     padding: 20px;
+    padding-top: 1px;;
 }
 
 .col-2 {
@@ -55,10 +79,15 @@ body {
 }
 
 
+
+ /* le col-3 col-6 col-3-right sono state tolte dal css,
+ perché con Gianluca abbiamo visto che non servivano
+ e aumentavano la difficoltà di corretto posizionamento */
+
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
-
 
 
 .col-5 {
@@ -74,8 +103,6 @@ body {
 .col-10 {
     flex-basis: calc((100% / 12) * 10);
 }
-
-
 
 
 .bg-blue {
@@ -100,17 +127,44 @@ body {
     min-height: 150px;
 }
 
-
 .border-white {
     border: 1px solid;
     color: white;
 }
 
 .black {
-    color: black;
-    
+    color: black;   
 }
 
 .just-between {
     justify-content: space-between;
 }
+
+.butt2 {
+    border: 0px;
+}
+
+ .butt3 {
+    background-color: #23272A;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    border: 0px; 
+}
+
+.para2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.para3 {
+    font-size: 20px;
+}
+
+.bg-aqua {
+    overflow: hidden;
+}
+
+
