@@ -140,6 +140,14 @@ body {
     justify-content: space-between;
 }
 
+.img-item1 {
+    width: 100%;
+}
+
+.container-mg {
+    margin-top: 80px;
+}
+
 .butt2 {
     border: 0px;
 }
